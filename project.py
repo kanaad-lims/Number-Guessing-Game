@@ -38,7 +38,7 @@ feedback_label.pack(pady = "10")
 
 #Generating a random number to be guessed.
 target = random.randint(1,100)
-print("Target value is: ", target)
+print("Target value is: ", target) #This step is for debugging purpose only. Comment out during execution.
 
 
 # Writing the logic for getting the inputed guess and guessing the number. 
