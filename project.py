@@ -56,7 +56,7 @@ def submit_guess():
             feedback_label.config(text="Congratulations!! You have rightly guessed the number", fg = "green")
             
     except ValueError:
-        feedback_label.config(text="Please enter a valid number.", fg = "red")
+        feedback_label.config(text="Please enter a valid numerical value.", fg = "red")
         
   
 #Creating the button to submit the guess.
